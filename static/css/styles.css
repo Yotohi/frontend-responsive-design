@@ -1,1 +1,110 @@
+header {
+    background-color: dimgray;
+    position: fixed;
+    margin: auto 0;
+    width: 100%;
+}
 
+nav {
+
+    overflow: hidden;
+    margin-top: 0;
+    margin-right: 20px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: darkorange;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav a.icon {
+    display: none;
+}
+
+body {
+    background-image: url(/static/images/field-4650585.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+.overzicht {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {}
+
+h2 {
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding: 10 40px;
+    display: block;
+    text-align: left;
+}
+
+time {
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: right;
+    width: 90%;
+
+}
+
+.Blind {
+    font-family: sans-serif;
+    opacity: 0, 5;
+    padding: 10 40px;
+    text-align: left;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+}
+
+.overzicht {
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 100px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+.Button {
+    float: right;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.Button :hover {
+    background-color: darkgreen;
+    color: white;
+}
